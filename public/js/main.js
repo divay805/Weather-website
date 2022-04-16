@@ -108,6 +108,7 @@ const getData = async (e) => {
 
 		}catch{
 			error.innerText = " ** Please Enter Valid City Name ";
+			content.innerHTML = "";
 		}
 	}
 }

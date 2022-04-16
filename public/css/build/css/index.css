@@ -1,8 +1,12 @@
+@font-face {
+  font-family: myfont;
+  src: url("../../../fonts/Poppins-Medium.ttf"); }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Poppins; }
+  font-family: myfont; }
 
 html {
   font-size: 62.5%; }
@@ -129,7 +133,5 @@ footer {
     position: static;
     left: 0;
     justify-content: flex-start; }
-  header .navbar_title {
-    font-size: 2rem; }
   .navbar_container {
     margin: 2rem auto 0 auto; } }
