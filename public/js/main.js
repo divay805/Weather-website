@@ -66,12 +66,10 @@ const getData = async (e) => {
 	}
 	else{
 		try{
-			const url = `http://api.weatherapi.com/v1/current.json?key=0bab7dd1bacc418689b143833220304&q=${cityName}`;
+			const url = `https://api.weatherapi.com/v1/current.json?key=0bab7dd1bacc418689b143833220304&q=${cityName}`;
 			content.innerHTML= "<button class='spinner-border'></button>"
 			const fetchData = await fetch(url);
 			const jsonData = await fetchData.json();
-
-			
 
 			content.innerHTML = `
 				<div class="top_layer">
