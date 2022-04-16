@@ -31,11 +31,11 @@ app.get("/*",(req,res) => {
 	res.render("404",{title:"Error"});
 });
 
-app.get("/about",(req,res) => {
+app.get("/about_",(req,res) => {
 	res.render("about",{title:"About Me"});
 });
 
-app.get("/about/*",(req,res) => {
+app.get("/about_/*",(req,res) => {
 	res.render("404",{title:"Error"});
 });
 
