@@ -27,10 +27,6 @@ app.get("/",(req,res) => {
 	res.render("index",{title:"Weather"});
 });
 
-app.get("/*",(req,res) => {
-	res.render("404",{title:"Error"});
-});
-
 app.get("/about_",(req,res) => {
 	res.render("about",{title:"About Me"});
 });
@@ -42,7 +38,8 @@ app.get("/about_/*",(req,res) => {
 app.get("*",(req,res) => {
 	res.render("404",{title:"Error"
 	});
-})
+});
+
 app.listen(port,"localhost",()=>{
 	console.log("Listening !");
 });
