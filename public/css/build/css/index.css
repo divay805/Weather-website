@@ -134,4 +134,6 @@ footer {
     left: 0;
     justify-content: flex-start; }
   .navbar_container {
-    margin: 2rem auto 0 auto; } }
+    margin: 2rem auto 0 auto; }
+  section .content .bottom_layer .col-md-6:nth-child(1) {
+    border-right: none; } }
