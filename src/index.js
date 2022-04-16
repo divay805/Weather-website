@@ -7,6 +7,7 @@ const path = require("path");
 
 const app = express();
 
+const port = process.env.PORT || 8000;
 // paths
 
 const staticPath = path.join(__dirname,"../public");
@@ -26,14 +27,22 @@ app.get("/",(req,res) => {
 	res.render("index",{title:"Weather"});
 });
 
+app.get("/*",(req,res) => {
+	res.render("404",{title:"Error"});
+});
+
 app.get("/about",(req,res) => {
 	res.render("about",{title:"About Me"});
+});
+
+app.get("/about/*",(req,res) => {
+	res.render("404",{title:"Error"});
 });
 
 app.get("*",(req,res) => {
 	res.render("404",{title:"Error"
 	});
 })
-app.listen(8000,"localhost",()=>{
+app.listen(port,"localhost",()=>{
 	console.log("Listening !");
 });
