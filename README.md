@@ -5,35 +5,30 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://res.cloudinary.com/dexratgkq/image/upload/v1661593895/samples/Logo_waogqu.png" alt="Logo" width="80" height="80">
+    <img src="https://res.cloudinary.com/dexratgkq/image/upload/v1661599813/samples/1555512_tltfvw.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">MAD OVER GRILLS</h3>
+  <h3 align="center">WEATHER</h3>
 
   <p align="center">
-    A Restaurant Website
+    A Weather Website
     <br />
   </p>
-  <a href="">View Demo</a>
+  <a href="https://balar-weather-app.herokuapp.com/">View Demo</a>
 </div>
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-It is an online booking table,seeing menu,etc.. of resturant. We provides some online fecilities like the following to the any user
-
-- user can pre book the table for specified date and time,
-- user can see online menu of resturant, 
-- user can gives feedback,
-- user can contact us for asking any questions
+It is an online live weather checking webiste , you can check any city live weather at any time
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ABOUT THE PROJECT -->
 ## Project ScreenShot
 
-<img src="https://res.cloudinary.com/dexratgkq/image/upload/v1661595554/samples/index_output_d7mrpv.png">
+<img src="https://res.cloudinary.com/dexratgkq/image/upload/v1661599716/samples/ss3_hoy3as.png">
 
 ### Built With
 
@@ -41,21 +36,17 @@ It is an online booking table,seeing menu,etc.. of resturant. We provides some o
 * CSS
 * JS
 * BOOTSTRAP
-* PHP
-* MYSQL
+* NODE JS
+* HANDLERBARS (HBS)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
 
 <!-- CONTACT -->
 ## Contact
 
 Your Name - Darshan Balar - balardarshan40@gmail.com
 
-Project Link: (https://github.com/darshan-balar2400/madovergrills)
+Project Link: (https://github.com/darshan-balar2400/Weather-Website)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
