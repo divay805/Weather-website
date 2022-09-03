@@ -37,7 +37,7 @@ It is an online live weather checking webiste , you can check any city live weat
 * JS
 * BOOTSTRAP
 * NODE JS
-* HANDLERBARS (HBS)
+* HANDLEBARS (HBS)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
