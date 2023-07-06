@@ -12,6 +12,7 @@
 	<section>
 		<form id="form">
 			<div class="form-group">
+				{{!-- here the search butten hai homepage vala  is defined as a template  --}}
 				<input type="text" name="searchInput" placeholder="Enter City Name" id="searchInput">
 				<span class="error"></span>
 				<input type="submit" name="searchButton" id="searchButton" value="Search">
@@ -19,7 +20,7 @@
 		</form>
 
 		<div class="content" id="content">
-			
+			{{!-- here the content come from the api is rendred by inner html of the main.js file  --}}
 		</div>
 	</section>
 	<footer>

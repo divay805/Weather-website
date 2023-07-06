@@ -6,7 +6,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: myfont; }
+  font-family: myfont;
+ 
+}
 
 html {
   font-size: 62.5%; }
@@ -15,7 +17,9 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+background-image: url("https://images.unsplash.com/photo-1561484930-998b6a7b22e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+}
 
 .row {
   margin: 0; }
@@ -24,7 +28,7 @@ body {
   width: 60vw;
   padding: 2rem;
   margin: 5rem auto 0 auto;
-  border-bottom: 1px solid lightgray; }
+  border-bottom: 1px solid wheat; }
 
 .navbar_container .navbar_title {
   font-size: 5rem; }
@@ -39,7 +43,7 @@ body {
 
 .navbar_container .links ul li a {
   text-decoration: none;
-  color: gray;
+  color: whitesmoke;
   font-size: 1.5rem; }
 
 section {
@@ -58,7 +62,7 @@ section form input[type="text"] {
   border-radius: 1.5rem;
   padding: 1rem;
   color: black;
-  background-color: lightgray; }
+  background-color: whitesmoke; }
 
 section form input[type="submit"] {
   width: 9.5rem;
@@ -69,7 +73,7 @@ section form input[type="submit"] {
   border: none;
   outline: none;
   padding: 0.7rem;
-  color: white;
+  color: whitesmoke;
   background-color: black;
   border-radius: 1.5rem; }
 
@@ -104,17 +108,17 @@ section .content .top_layer .temprature {
 
 section .content .bottom_layer {
   padding: 1rem;
-  color: gray; }
+  color: whitesmoke; }
 
 section .content .bottom_layer .col-md-6:nth-child(1) {
-  border-right: 1px solid gray; }
+  border-right: 1px solid whitesmoke; }
 
 footer {
   width: 60vw;
   margin: auto auto 0 auto;
-  color: gray;
+  color: whitesmoke;
   padding: 1rem;
-  border-top: 1px solid gray; }
+  border-top: 1px solid whitesmoke; }
 
 .data_hide {
   display: none; }
