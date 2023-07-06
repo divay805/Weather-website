@@ -24,7 +24,7 @@ hbs.registerPartials(partialPath);
 // routing
 
 app.get("/",(req,res) => {
-	res.render("index",{title:"Weather"});
+	res.render("index",{title:"SkyREp"});
 });
 
 app.get("/about",(req,res) => {
